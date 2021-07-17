@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Formulario para cálculo de perímetro y área</p>
+    </header>
+
+    <section>
+        <h2>Calcula área y perímetro</h2>
+        <form>
+            <label>
+                ¿Cuánto mide el lado del cuadrado?
+            </label>
+            <input id="InputCuadrado" type="number" />
+            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
+            <button type="button" onclick=calcularAreaCuadrado()>Calcular área</button>
+            <br>
+            <hr>
+            <br>
+            <label>
+                ¿Cuánto mide la base del triangulo?
+            </label>
+            <input id="InputBaseTriangulo" type="number" />
+            <label>
+                ¿Cuánto miden los lados del triangulo?
+            </label>
+            <input id="InputTriangulo1" type="number" />
+            <input id="InputTriangulo2" type="number" />
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular área</button>
+            <br>
+            <hr>
+            <br>
+            <label>
+                ¿Cuánto mide el radio de la circunferencia?
+            </label>
+            <input id="InputRadio" type="number" />
+            <button type="button" onclick="calcularPerimetroCfa()">Calcular perímetro</button>
+            <button type="button" onclick="calcularAreaCfa()">Calcular área</button>
+        </form>
+    </section>
+
+    <script src="./figuras.js"></script>
+</body>
+
+</html>
